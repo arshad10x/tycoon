@@ -10,9 +10,8 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import TextField from '@mui/material/TextField';
-import Model from "./assets/model3.jpg"; 
+import Model from "./assets/tshirt.png"; 
 import Logo from "./assets/logo.png"; 
-import Background from "./assets/background.jpg"
 
 export default function AlertDialog() {
   const [open, setOpen] = useState(false);
@@ -26,7 +25,7 @@ export default function AlertDialog() {
   };
 
   return (
-    <div style={{Background}}>
+    <div>
       <Dialog
         open={open}
         onClose={handleClose}
