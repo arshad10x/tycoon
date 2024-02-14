@@ -47,7 +47,7 @@ export default function AlertDialog() {
         </DialogTitle>
         <DialogContent style={{ display: "flex", alignItems: "center" }}>
           <div style={{ flex: 1 }}>
-            <img src={Model} alt="Model" className="model_img" style={{ width: "85%", backgroundColor:"green"}} />
+            <img src={Model} alt="Model" className="model_img" style={{ width: "85%", backgroundColor:"gray"}} />
           </div>
           <div style={{ flex: 1 }}>
             <DialogContentText id="alert-dialog-description">
