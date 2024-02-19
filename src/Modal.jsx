@@ -10,6 +10,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import TextField from '@mui/material/TextField';
+import EmailIcon from '@mui/icons-material/Email';
 import Model from "./assets/tshirt.png"; 
 import Logo from "./assets/logo.png"; 
 
