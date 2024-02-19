@@ -59,14 +59,14 @@ export default function AlertDialog() {
                 construction. For orders, you can reach us on Instagram, We are happy
                 to assist you.
               </p>
-              <TextField
+{/*               <TextField
                 id="email-input"
                 label="Enter your Email"
                 variant="outlined"
                 fullWidth
                 style={{ marginTop: '5rem',}}
               />
-              <Button variant="contained" className="btn" style={{ marginTop: '16px', backgroundColor:"#DEAF66", }}>Join</Button>
+              <Button variant="contained" className="btn" style={{ marginTop: '16px', backgroundColor:"#DEAF66", }}>Join</Button> */}
             </DialogContentText>
           </div>
         </DialogContent>
@@ -77,14 +77,10 @@ export default function AlertDialog() {
             style={{ marginRight: "8px",  cursor: "pointer" }}
             onClick={() => window.open("https://www.instagram.com/tycoon.couture/?igsh=MW96N3BoNHM4Z2hheA%3D%3D")}
           />
-          <FacebookIcon
-            style={{ marginRight: "8px", cursor: "pointer" }}
-            onClick={() => window.open("https://www.facebook.com/")}
-          />
-          <TwitterIcon
-            style={{ marginRight: "8px", cursor: "pointer" }}
-            onClick={() => window.open("https://twitter.com/")}
-          />
+       <EmailIcon
+              style={{ marginRight: "8px",  cursor: "pointer" }}
+              onClick={() => window.open("mailto:support@tycooncouture.com")}
+            />
         </div>
         </DialogActions>
       </Dialog>
